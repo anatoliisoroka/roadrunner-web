@@ -1,0 +1,243 @@
+/*! Place your custom styles here */
+html {
+  scroll-behavior: smooth;
+}
+.nav-icons {
+  color: #440099 !important;
+  font-size: 18px !important;
+}
+.foodList {
+  height: 300px;
+  overflow-y: auto;
+}
+.input-radio + span {
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+  margin-left: 0.92857143em;
+  font-size: 0.85714286em;
+  white-space: nowrap;
+}
+.text-primary {
+  color: #440099 !important;
+}
+.restaurant-card {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+.restaurant-cover {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.bg-primary {
+  background-color: #440099 !important;
+}
+.m-b-0 {
+  margin-bottom: 0;
+}
+.m-b-40 {
+  margin-bottom: 40px !important;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+.m-t-50 {
+  margin-top: 50px;
+}
+.p-b-0 {
+  padding-bottom: 0;
+}
+.MenuSection {
+  padding-right: 30px;
+}
+.menuSections {
+  border-bottom: 1px solid;
+}
+.menuItem {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  height: 100%;
+}
+.itemOptions {
+  height: 400px;
+  overflow-y: auto;
+}
+.cartItem {
+  padding: 5px 0px;
+}
+.quantity-control {
+  display: inline-block;
+  margin-left: 30px;
+}
+.quantity-control .quantity-button {
+  padding: 0px 10px;
+  font-size: 17px;
+}
+.quantity-input {
+  width: 50px !important;
+  text-align: center;
+}
+.quantity-input,
+.quantity-button {
+  display: inline-block;
+  height: 25px;
+  margin: 0px !important;
+  vertical-align: top;
+  line-height: 25px;
+}
+.item-details {
+  font-size: 14px;
+  opacity: 0.6;
+}
+.searchLocation {
+  position: relative;
+}
+.searchLocation i {
+  position: absolute;
+  top: 8px;
+  right: 30px;
+  font-size: 25px;
+  color: #440099 !important;
+}
+#topRated {
+  overflow: auto;
+  white-space: nowrap;
+}
+#topRated .masonry__item {
+  display: inline-block;
+}
+
+.option-footer .quantity-control {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.option-footer .quantity-control .quantity-button {
+  padding: 0px 10px;
+  font-size: 17px;
+}
+.option-footer .quantity-input {
+  width: 50px !important;
+  text-align: center;
+}
+.option-footer .quantity-input,
+.quantity-button {
+  display: inline-block;
+  height: 30px;
+  margin: 0px !important;
+  vertical-align: top;
+  line-height: 25px;
+}
+.cart-total {
+  margin-top: 0px;
+}
+
+.filters {
+  -webkit-box-shadow: 3px 4px 7px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 3px 4px 7px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 4px 7px -4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 600px) {
+  .search-btn {
+    width: 100%;
+  }
+  .text-left-xs {
+    text-align: left;
+  }
+  .text-center .input-checkbox label,
+  .text-center .input-radio label {
+    margin: 0;
+  }
+  .nav-btn {
+    margin: 20px 0px;
+  }
+  .col-sm-12 a {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.menu-item-description {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  display: inline-block;
+  height: 80px;
+}
+
+.menuItem .btn--primary,
+.quantity-button {
+  background-color: white;
+  color: #440099 !important;
+}
+
+.menuItem .btn--primary:hover,
+.quantity-button:hover {
+  background-color: #440099;
+  color: white !important;
+}
+
+.quantity-input {
+  color: #440099 !important;
+  height: 30px;
+  border-color: none;
+  padding-left: 0px;
+  padding: 0px;
+}
+
+.quantity-button {
+  line-height: 0px;
+  width: 30px;
+}
+
+.shine {
+  background: #f6f7f8;
+  background-image: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 800px;
+  display: block;
+  position: relative;
+
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeholderShimmer;
+  animation-timing-function: linear;
+
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: placeholderShimmer;
+  -webkit-animation-timing-function: linear;
+}
+
+@keyframes placeholderShimmer {
+  0% {
+    background-position: -1500px 0;
+  }
+  100% {
+    background-position: 1500px 0;
+  }
+}
+
+@-webkit-keyframes placeholderShimmer {
+  0% {
+    background-position: -1500px 0;
+  }
+  100% {
+    background-position: 1500px 0;
+  }
+}
+
+.react-tel-input input {
+  width: 100% !important;
+  height: 2.78571429em !important;
+  font-size: 16px !important;
+  border-color: #ececec !important;
+  background: #fcfcfc !important;
+}
+
+.react-tel-input input:focus {
+  box-shadow: 0 0 0 1px #76abe9 !important;
+}

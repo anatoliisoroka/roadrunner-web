@@ -1,0 +1,65 @@
+{
+  "name": "roadrunner-web-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mars/heroku-js-runtime-env": "^3.0.2",
+    "bootstrap": "^4.3.1",
+    "firebase": "^7.14.2",
+    "font-awesome": "^4.7.0",
+    "google-maps-react": "^2.0.2",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.24.0",
+    "pubsub-js": "^1.7.0",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.15",
+    "react-bootstrap-daterangepicker": "^4.1.0",
+    "react-bootstrap-sweetalert": "^5.1.7",
+    "react-clamp-lines": "^3.0.2",
+    "react-cookie-consent": "^3.0.0",
+    "react-dom": "^16.12.0",
+    "react-ellipsis-text": "^1.2.1",
+    "react-facebook-login": "^4.1.1",
+    "react-facebook-pixel": "^0.1.3",
+    "react-geocode": "^0.2.1",
+    "react-google-login": "^5.0.7",
+    "react-google-maps-loader": "^4.2.6",
+    "react-google-places-suggest": "^3.9.0",
+    "react-infinite-scroller": "^1.2.4",
+    "react-loader-spinner": "^3.1.14",
+    "react-loading-overlay": "^1.0.1",
+    "react-lottie": "^1.2.3",
+    "react-masonry-component": "^6.2.1",
+    "react-materialize": "^3.4.1",
+    "react-phone-input-2": "^2.13.5",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-select": "^3.0.8",
+    "react-sidebar": "^3.0.2",
+    "react-slick": "^0.25.2",
+    "react-star-ratings": "^2.3.0",
+    "react-stripe-elements": "^6.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
